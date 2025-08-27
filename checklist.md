@@ -137,48 +137,48 @@ Instructions for `/* */` and `/# #/` blocks:
 * [x] `Tools → Jeebies`. Examine its report of possible `he/be` errors.
 
 ### Misc checks
-* [ ] Check spaces around hyphens. Regex: `(\s+-|-\s+)`
-* [ ] Check spaces before punctuation. Regex: `\s+[.!?;:,]`
-* [ ] Check spaces around quotes. Regex: `\s+['"]\s+`
-* [ ] Check spaces around brackets. Regex: `\s+[({[\]})]\s+`
-* [ ] Search regex `(Dr|M(me|lle|essrs|rs?|grs?)|St|Fr|Rev)\s` and add missing period if needed
-* [ ] Check `A.M.`, `P.M.` and similar for spacing to match book - regex: `[AP]\.\s*M\.`
+* [x] Check spaces around hyphens. Regex: `(\s+-|-\s+)`
+* [x] Check spaces before punctuation. Regex: `\s+[.!?;:,]`
+* [x] Check spaces around quotes. Regex: `\s+['"]\s+`
+* [x] Check spaces around brackets. Regex: `\s+[({[\]})]\s+`
+* [x] Search regex `(Dr|M(me|lle|essrs|rs?|grs?)|St|Fr|Rev)\s` and add missing period if needed
+* [x] Check `A.M.`, `P.M.` and similar for spacing to match book - regex: `[AP]\.\s*M\.`
   * Note these to do `&nbsp;` in HTML, to avoid line wrap mid-abbreviation
-* [ ] Does book use small-caps A.D. B.C.?
+* [x] Does book use small-caps A.D. B.C.?
   * Search `[^A-Za-z][A-Z]\.\s*[A-Z]\.[^A-Za-z]`, add `<sc>` and note for `&nbsp;` if needed
-* [ ] Check for multiple consecutive spaces which are not in a no-wrap block
-* [ ] Look at `<tb>` and look for improper uses
-* [ ] Check all ellipses. Regex: `\.\.\.`
-* [ ] Check for 3 dashes (not either 2 or 4). Regex: `[^-]---[^-]`
-* [ ] Check for 5 dashes (not either 2 or 4). Regex: `[^-]-----[^-]`
-* [ ] Look for spaces around em- or long-dash. Regex: `\s+--(--)?\s+`
-* [ ] Check adjacent letters and numbers. Regex: `([0-9][A-Za-z]|[A-Za-z][0-9])`
-* [ ] Superscripts (search `^` without regex). Can use `^` or `^{th}` form
+* [x] Check for multiple consecutive spaces which are not in a no-wrap block
+* [x] Look at `<tb>` and look for improper uses
+* [x] Check all ellipses. Regex: `\.\.\.`
+* [x] Check for 3 dashes (not either 2 or 4). Regex: `[^-]---[^-]`
+* [x] Check for 5 dashes (not either 2 or 4). Regex: `[^-]-----[^-]`
+* [x] Look for spaces around em- or long-dash. Regex: `\s+--(--)?\s+`
+* [x] Check adjacent letters and numbers. Regex: `([0-9][A-Za-z]|[A-Za-z][0-9])`
+* [x] Superscripts (search `^` without regex). Can use `^` or `^{th}` form
   * Add TN to text version about this superscript notation
 
 ### Apply Bookloupe
-* [ ] `Tools → Bookloupe`.
+* [x] `Tools → Bookloupe`.
 
 ### Apply Spellcheck
-* [ ] Use `Tools → Spelling`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
+* [x] Use `Tools → Spelling`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
 
 ### Fix Sidenotes
-* [ ] Read the [discussion](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Sidenotes). Step through sidenotes with: Search & Replace of `[S`, not regex, not whole word, ignore case. Click `Search` to find each Sidenote.
+* [x] Read the [discussion](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Sidenotes). Step through sidenotes with: Search & Replace of `[S`, not regex, not whole word, ignore case. Click `Search` to find each Sidenote.
   * Compare to page image. Move note above paragraph if feasible.
   * Otherwise, position it above the sentence to which it applies, with blank lines to prevent rewrapping if you decide that is best.
 
 ### Fix Poetry Line Numbers
-* [ ] If the book has poetry that uses line numbers, read [this page](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers) and align the line numbers consistently.
+* [x] If the book has poetry that uses line numbers, read [this page](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers) and align the line numbers consistently.
 
 ### Curly quotes
-* [ ] Curly quotes are [recommended](https://www.pgdp.net/phpBB3/viewtopic.php?f=3&t=73290) in both the text and HTML versions. Now is the time to put them in, before the split.
+* [x] Curly quotes are [recommended](https://www.pgdp.net/phpBB3/viewtopic.php?f=3&t=73290) in both the text and HTML versions. Now is the time to put them in, before the split.
     * `Tools → Convert to Curly Quotes`
     * Various fixup tools included on this panel
-* [ ] If needed, validate quotes pairings by searching for `[“”‘’]`
+* [x] If needed, validate quotes pairings by searching for `[“”‘’]`
 
 ### Unicode EN dashes
 For now, process only EN dash. The EM dash and long dash (2x EM) are left for after the text/html split.
-* [ ] [En dash](https://www.pgdp.net/wiki/En-dash): S/R `([^-])-([^-]|$)` → `\1–\2`
+* [x] [En dash](https://www.pgdp.net/wiki/En-dash): S/R `([^-])-([^-]|$)` → `\1–\2`
   * Range of numbers `12–15`
   * Mathematical minus sign `15 – 12 = 3`
   * Negative numbers `–14º`
@@ -186,18 +186,18 @@ For now, process only EN dash. The EM dash and long dash (2x EM) are left for af
 * Any single dashes not covered above are treated as hyphens.
 
 ### Last pre-split check
-* [ ] Look at the revisit list for anything to handle before text/html split
-* [ ] Check for unexpected `*`: Search → Find Asterisks w/o Slash
+* [x] Look at the revisit list for anything to handle before text/html split
+* [x] Check for unexpected `*`: Search → Find Asterisks w/o Slash
 
 ### Save Edited Markup
-* [ ] Save any unsaved changes
-* [ ] Use `File → Save a Copy As` to make `race.html`
+* [x] Save any unsaved changes
+* [x] Use `File → Save a Copy As` to make `race.html`
   * This will be the starting file for the HTML version. You can also use it  as fallback in case you mess up and need to start the following steps over.
 
 ## Prepare the Plain Text Version
 We now proceed to create a Plain Text Version of the book.
 
-* [ ] Re-open `race-utf8.txt` (if not still open).
+* [x] Re-open `race-utf8.txt` (if not still open).
 
 ### Convert `<tb>`, Italic, Bold, and Smallcap
 * [ ] `Text → Convert Markup`:
