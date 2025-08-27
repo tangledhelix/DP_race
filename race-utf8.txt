@@ -2,7 +2,7 @@
 
 
 
-/*
+/F
 <sc>International Conciliation</sc>
 
 SPECIAL BULLETIN
@@ -22,7 +22,7 @@ JANUARY, 1915
 American Association for International Conciliation
 Sub-Station 84 (407 West 117th Street)
 New York City
-*/
+F/
 
 
 

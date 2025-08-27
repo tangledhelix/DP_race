@@ -1,7 +1,7 @@
 {
-  "md5checksum": "cc1e129201c1f97c2960d72ee0320c43",
-  "insertpos": "566.14",
-  "insertpospeer": "567.0",
+  "md5checksum": "f94d064a2a972fc034f8a80ead4d95a2",
+  "insertpos": "544.0",
+  "insertpospeer": "551.0",
   "pagedetails": {
     "001": {
       "index": "1.0",
@@ -10,91 +10,91 @@
       "label": "Pg 1"
     },
     "002": {
-      "index": "27.0",
+      "index": "26.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 2"
     },
     "003": {
-      "index": "36.0",
+      "index": "34.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 3"
     },
     "004": {
-      "index": "74.0",
+      "index": "71.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 4"
     },
     "005": {
-      "index": "114.0",
+      "index": "110.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 5"
     },
     "006": {
-      "index": "155.0",
+      "index": "150.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 6"
     },
     "007": {
-      "index": "195.0",
+      "index": "189.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 7"
     },
     "008": {
-      "index": "235.0",
+      "index": "228.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 8"
     },
     "009": {
-      "index": "277.0",
+      "index": "269.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 9"
     },
     "010": {
-      "index": "316.0",
+      "index": "307.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 10"
     },
     "011": {
-      "index": "356.0",
+      "index": "346.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 11"
     },
     "012": {
-      "index": "395.0",
+      "index": "384.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 12"
     },
     "013": {
-      "index": "434.0",
+      "index": "422.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 13"
     },
     "014": {
-      "index": "475.0",
+      "index": "462.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 14"
     },
     "015": {
-      "index": "517.0",
+      "index": "503.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 15"
     },
     "016": {
-      "index": "559.0",
+      "index": "544.0",
       "style": "\"",
       "number": "+1",
       "label": "Pg 16"
