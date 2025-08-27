@@ -70,32 +70,32 @@ Instructions for `/* */` and `/# #/` blocks:
   * Check consistent indentation of block text
   * Apply specific [margin values](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Block_Quote_Indent_and_Margins) if desired
 * [x] `Search → Find Proofer Comments`. Resolve all proofer's notes.
-* [ ] `Tools → Unmatched → Block Markup`
-* [ ] `Tools → Unmatched → DP Markup`.
-* [ ] Search `(</i>)([!?;:])` & replace `$2$1` to find punct that should move inside quotes
-* [ ] Use `Tools → Unmatched → Brackets` to check each type of bracket and markup.
+* [x] `Tools → Unmatched → Block Markup`
+* [x] `Tools → Unmatched → DP Markup`.
+* [x] Search `(</i>)([!?;:])` & replace `$2$1` to find punct that should move inside quotes
+* [x] Use `Tools → Unmatched → Brackets` to check each type of bracket and markup.
   * Do not omit the lowly parenthesis, often mis-scanned as curly-brace.
-* [ ] Look for malformed thought-breaks (5 stars). Regex: `\*\s*\*\s*\*\s*\*\s*\*`
+* [x] Look for malformed thought-breaks (5 stars). Regex: `\*\s*\*\s*\*\s*\*\s*\*`
 
 ### Transliterations
-* [ ] Check for non-Latin script tags. `\[(Greek|Hebrew|Arabic|Cyrillic)`
-* [ ] Handle each case as appropriate.
+* [x] Check for non-Latin script tags. `\[(Greek|Hebrew|Arabic|Cyrillic)`
+* [x] Handle each case as appropriate.
 
 ### Fix Footnotes
-* [ ] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
+* [x] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
   * `Next / Prev FN` to navigate
   * Look for `*` and use `Join Selected FN to Previous` to join them
   * THERE SHOULD BE NO SUSPECTS AT TOP OF WINDOW
     * Exception: sometimes a footnote is really long
     * Exception: multiple anchors per footnote can confuse it?
-* [ ] Move footnotes between paragraphs
+* [x] Move footnotes between paragraphs
   * `Footnote Fixup`, `Re-run`
   * `All to Number`, `Reindex`
   * `Re-run`, `Move FNs to Paragraphs`
-* [ ] Search for blocks: regex (no case match) `^/[#*$PCRFLXI]` and move footnotes outside of blocks as appropriate
+* [x] Search for blocks: regex (no case match) `^/[#*$PCRFLXI]` and move footnotes outside of blocks as appropriate
 
 ### Remove Visible Page Breaks
-* [ ] Run `Tools → Page Separator Fixup` to remove visible page separators
+* [x] Run `Tools → Page Separator Fixup` to remove visible page separators
 
 ### Format Front Matter
 * [ ] Format the title page, preserving as much of the original material as possible. Protect in `/X...X/` (no rewrap, no indent) or `/F...F/` (the same, except that it will be centered in the html version).
