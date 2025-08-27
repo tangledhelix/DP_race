@@ -15,10 +15,10 @@ cd ~/dp/util
 . venv/bin/activate
 ./make_project.py
 ```
-* [ ] Read the [project comments](https://www.pgdp.net/c/project.php?id=projectID64d791ed8f9b0#project-comments)
-* [ ] Subscribe to the [forum topic](https://www.pgdp.net/phpBB3/viewtopic.php?t=79973) and read all posts
-* [ ] Open `race-utf8.txt` in Guiguts
-* [ ] `File → Project → Configure Page Labels...`. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
+* [x] Read the [project comments](https://www.pgdp.net/c/project.php?id=projectID64d791ed8f9b0#project-comments)
+* [x] Subscribe to the [forum topic](https://www.pgdp.net/phpBB3/viewtopic.php?t=79973) and read all posts
+* [x] Open `race-utf8.txt` in Guiguts
+* [x] `File → Project → Configure Page Labels...`. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
 
 ### Sequential Inspection of Text
 * [ ] Turn on `Auto Img`

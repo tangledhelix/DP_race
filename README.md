@@ -14,21 +14,21 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
-* [ ] Example item
+* [ ] From PM notes: The initial "race and nationality" on page 3 will be a chapter heading and all the rest will be section headings.
 
 ### Project manager notes ###
 
-## Description
+#### Description
 
 This is a 1915 book by anthropologist [Franz Boas](https://en.wikipedia.org/wiki/Franz_Boas) (1858-1942) covering race and nationality in the context of World War I.  He states that people saw it as "an unavoidable war of races" and proceeds to criticize this view as otherwise the "so-called 'racial instinct' would perpetuate wars of extermination until one race alone survived".  It is a short but pointed pamphlet that had a timely relevance.
 
 Source: [The Internet Archive](https://archive.org/details/5921193upenn/)
 
-## Proofreading
+#### Proofreading
 
 No deviations from the guidelines.
 
-## Formatting
+#### Formatting
 
 The initial "race and nationality" on page 3 will be a chapter heading and all the rest will be section headings.
 
