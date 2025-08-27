@@ -39,8 +39,9 @@ The initial "race and nationality" on page 3 will be a chapter heading and all t
 
 ### Illustrations ###
 
-- [ ] p. 1: publisher logo
-- [ ] p. 3: illo drop-cap
+* [ ] p. 1: publisher logo
+* [ ] p. 3: illo drop-cap
+* [ ] p. 16: printers' union stamp (do we include those? asked in forum.)
 
 ### Proofer's notes ###
 
