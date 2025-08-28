@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>pptext report</title>
+<style type="text/css">
+body { margin-left: 1em;}
+.red { color:red; background-color: #FFFFAA; }
+.green { color:green; background-color: #FFFFAA; }
+.black { color:black; }
+.dim { color:#999999; }
+</style>
+</head>
+<body>
+<pre>
+********************************************************************************
+* PPTEXT RUN REPORT                                                            *
+*                                     started Thursday, 28-Aug-25 12:06:59 MDT *
+********************************************************************************
+<span class='dim'>processing file: race-utf8.txt
+encoding: Unicode text, UTF-8 text
+pptext version: b504a3699 @ 2024-08-21T22:14
+verbose mode: on
+good words file: good_words.txt
+good word count: 15 words
+paragraphs: 61
+punctuation style: American</span>
+
+<span class='black'>reports: <a href='#sqc'>smartquote scan</a>  <a href='#spell'>spellcheck</a>  <a href='#leven'>edit distance</a>  <a href='#texta'>text checks</a>  <a href='#jeebi'>jeebies</a> </span>
+
+<span class='black'><a name='sqs'></a>
+<span class='black'>********************************************************************************
+* SMART QUOTE SCAN                                                             *
+********************************************************************************
+
+Smart Quote Scan: no suspects reported
+<span class='black'><a name='spell'></a>
+<span class='black'>********************************************************************************
+* SPELLCHECK SUSPECT WORDS (en)                                                *
+********************************************************************************
+
+</span>
+<span class='black'><a name='leven'></a>
+<span class='dim'>********************************************************************************
+* EDIT DISTANCE CHECKS                                                         *
+********************************************************************************
+
+no Levenshtein edit distance queries reported
+</span>
+<span class='black'><a name='texta'></a>
+<span class='black'>********************************************************************************
+* TEXT ANALYSIS REPORT                                                         *
+********************************************************************************
+
+<span class='dim'>----- hyphenation and non-hyphenated check ------------------------------------
+
+  no hyphenation/non-hyphenated inconsistencies found.
+</span>
+<span class='dim'>----- hyphenation and spaced pair check ---------------------------------------
+
+  no hyphenated/spaced pair inconsistencies found.
+</span>
+<span class='dim'>----- asterisk checks --------------------------------------------------------
+
+  no unexpected asterisks found in text.
+</span>
+<span class='dim'>----- adjacent spaces check --------------------------------------------------
+
+  no adjacent spaces found in text.
+</span>
+<span class='dim'>----- trailing spaces check ---------------------------------------------------
+
+  no trailing spaces found in text.
+</span>
+<span class='black'>----- character checks --------------------------------------------------------
+
+'('
+     19:                  Sub-Station 84 <span class='red'>(</span>407 West 117th Street)
+
+')'
+     19:                  Sub-Station 84 (407 West 117th Street<span class='red'>)</span>
+
+</span>
+----- spacing pattern ---------------------------------------------------------
+
+     0 
+     4 41..1
+    24 4
+    31 421..121..121..121..121..121..1
+   442 421
+
+<span class='dim'>----- short lines check ------------------------------------------------------
+
+  no short lines found in text.
+</span>
+<span class='dim'>----- long lines check ------------------------------------------------------
+
+  no long lines found in text.
+</span>
+<span class='dim'>----- repeated word check ----------------------------------------------------
+
+  no repeated words found in text.
+</span>
+<span class='dim'>----- ellipsis check ---------------------------------------------------------
+
+  no ellipsis suspects found in text.
+</span>
+<span class='black'>----- dash check -------------------------------------------------------------
+
+  adjacent dashes:
+      69: form of speech,--the parental Aryan language. Slavic, Teutonic, and
+      95:                     THE GREAT BLOND ARYAN--A FICTION
+     102: type--however it may be called--prevails.
+     145: another from north to south,--in the north the blonde, in the center a
+          [book uses "--" as em-dash. not reporting further]
+</span>
+<span class='black'>----- scanno check -----------------------------------------------------------
+
+cast
+    279: aim, those Italians who have <span class='red'>cast</span> their lot with Switzerland
+fail
+    341: advance that has benefited mankind cannot <span class='red'>fail</span> to see that the
+lie
+    177: <span class='red'>lie</span> to Germany.
+</span>
+<span class='dim'>----- curly quote check ------------------------------------------------------
+
+  no curly quote (context) suspects found in text.
+</span>
+<span class='black'>----- special situations checks -----------------------------------------------
+
+mixed case within word
+     19:                  <span class='red'>Sub-Station</span> 84 (407 West 117th Street)
+     42: into consciousness racial differences like those between <span class='red'>Latin-American</span>
+     43: and <span class='red'>Anglo-American</span>, East Indian and European, Mongol or Malay and
+    137: this type. The heavy-set, dark <span class='red'>East-European</span> type is common to many of
+    301: France dreamt of a union of all Latin people in a <span class='red'>Pan-Latin</span> union
+    357: members of the <span class='red'>non-European</span> races of mankind.
+</span>
+<span class='dim'>----- book level checks -----------------------------------------------
+
+      a.m.:   0       p.m.:   0
+     a. m.:   0      p. m.:   0
+
+     today:   0    tonight:   0   tomorrow:   0 
+    to-day:   0   to-night:   0  to-morrow:   0 
+
+ northeast:   0 north-east:   0
+ northwest:   2 north-west:   0
+ southeast:   1 south-east:   0
+ southwest:   0 south-west:   0
+
+        Mr:   0        Mrs:   0         Dr:   0 
+       Mr.:   0       Mrs.:   0        Dr.:   0 
+
+  no book level checks reported.
+</span>
+<span class='dim'>----- paragraph level checks -----------------------------------------------
+
+  no paragraph level checks reported.
+</span></span>
+<span class='black'><a name='jeebi'></a>
+<span class='dim'>********************************************************************************
+* JEEBIES REPORT                                                               *
+********************************************************************************
+
+jeebies found no errors
+</span>
+--------------------------------------------------------------------------------
+run complete
+execution time: 1.24 seconds
+</pre>
+</body>
+</html>
