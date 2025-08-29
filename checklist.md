@@ -410,8 +410,8 @@ Perform these validation steps before submitting your book. Validation is also h
 * [x] Use `HTML → HTML Link Checker`. Fix any reported problems.
 
 ### Review HTML
-* [ ] Review in multiple browsers (Safari, Chrome, Firefox, maybe Edge?)
-* [ ] Pay particular attention to complex items like tables, poetry
+* [x] Review in multiple browsers (Safari, Chrome, Firefox, maybe Edge?)
+* [x] Pay particular attention to complex items like tables, poetry
 
 ## Ebook generation
 
@@ -441,11 +441,11 @@ Perform these validation steps before submitting your book. Validation is also h
 * Also a utility `kepubify` (link below) that converts; it's unclear what this conversion does that's any better than just renaming the file. Changing the filename is enough to invoke a different / better rendering engine on Kobo devices.
 
 ### Build and upload Ebooks
-* [ ] HTML → Ebookmaker (online)
-* [ ] Optional: Convert epub3 with [kepubify](https://pgaskin.net/kepubify/try/)
-* [ ] Optional: Upload epub3 with [Send to Kindle](https://www.amazon.com/gp/sendtokindle)
-* [ ] Add epub3 to Apple Books
-* [ ] Optional: Add epub, epub3, renamed-kepub, converted-kepub to Dropbox for Kobo
+* [x] HTML → Ebookmaker (online)
+* [x] Optional: Convert epub3 with [kepubify](https://pgaskin.net/kepubify/try/)
+* [x] Optional: Upload epub3 with [Send to Kindle](https://www.amazon.com/gp/sendtokindle)
+* [x] Add epub3 to Apple Books
+* [x] Optional: Add epub, epub3, renamed-kepub, converted-kepub to Dropbox for Kobo
 
 ### Ebook review
 <details>
@@ -453,15 +453,15 @@ Perform these validation steps before submitting your book. Validation is also h
 Don't necessarily have to do *all* of these, but these are what I have.
 </summary>
 
-* [ ] Review Ebook ToC in at least one e-reader, for structure & content
+* [x] Review Ebook ToC in at least one e-reader, for structure & content
   * Can try using `title=` attr if a header title has footnote marker etc.
-* [ ] Mac
+* [x] Mac
   * [ ] Adobe Digital Editions (epub3)
-  * [ ] Apple Books
-  * [ ] Kindle Previewer (epub3)
+  * [x] Apple Books
+  * [x] Kindle Previewer (epub3)
   * [ ] Calibre (epub3)
-* [ ] Phone
-  * [ ] Apple Books (iPhone)
+* [x] Phone
+  * [x] Apple Books (iPhone)
   * [ ] Kindle (iPhone)
 * [ ] Tablet
   * [ ] Kindle (Android)
