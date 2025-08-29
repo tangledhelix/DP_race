@@ -5,7 +5,7 @@
     <title>
       Race and Nationality | Project Gutenberg
     </title>
-    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <link rel="icon" href="images/cover.png" type="image/x-cover">
     <style>
 
 body {
@@ -310,6 +310,40 @@ h3.nobreak  {page-break-before: avoid;}
 .titlepage-pad-down2 { margin-bottom: 2.2em; }
 .pagebreak { page-break-before: always; }
 
+
+/* Illustration classes */
+.illowe39_3750 {width: 11em; margin-bottom: 2em;}
+.illowe14_3125 {width: 3.25em;}
+
+img.drop-cap
+{
+  float: left;
+  margin: 0 0.5em 0 0;
+}
+
+p.drop-cap:first-letter
+{
+  color: transparent;
+  visibility: hidden;
+  margin-left: -2em;
+}
+
+.x-ebookmaker img.drop-cap
+{
+  display: none;
+}
+
+.x-ebookmaker p.drop-cap:first-letter
+{
+  color: inherit;
+  visibility: visible;
+  margin-left: 0;
+}
+
+.upper-case
+{
+  text-transform: uppercase;
+}
     </style>
 </head>
 <body>
@@ -327,7 +361,9 @@ h3.nobreak  {page-break-before: avoid;}
 RACE AND NATIONALITY
 </h1>
 
-<p class="center noindent titlepage-pad-down2">[Illustration]</p>
+<p class="center noindent titlepage-pad-down2"><figure class="figcenter illowe39_3750" id="i_001">
+  <img class="w100" src="images/i_001.png" alt="Publisher's logo">
+</figure>
 
 <p class="center noindent titlepage-pad-down1">By<br>
 FRANZ BOAS<br>
@@ -363,7 +399,12 @@ this series.
   </h2>
 </div>
 
-<p>The struggle that is now devastating Europe
+<div>
+  <img class="drop-cap illowe14_3125" src="images/i_003.png" alt="" data-role="presentation"/>
+</div>
+
+<p class="drop-cap"><span class="upper-case">The</span>
+struggle that is now devastating Europe
 has been described as an unavoidable war of
 races, as an outcome of the innate hostility
 between Teutonic, Slav, and Latin peoples,
@@ -868,8 +909,6 @@ young, to teach that no nation has the right to impose
 its individuality upon another one, that no war is
 justifiable except for the defence of the threatened
 integrity of our ideals.</p>
-
-<p>[Illustration]</p>
 
 </body>
 </html>
