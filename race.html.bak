@@ -313,7 +313,7 @@ h3.nobreak  {page-break-before: avoid;}
 
 /* Illustration classes */
 .illowe39_3750 {width: 11em; margin-bottom: 2em;}
-.illowe14_3125 {width: 3.5em;}
+.illowe14_3125 {width: 3.25em;}
 
 img.drop-cap
 {
