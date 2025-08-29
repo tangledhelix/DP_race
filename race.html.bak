@@ -400,7 +400,7 @@ this series.
 </div>
 
 <div>
-  <img class="drop-cap illowe14_3125" src="images/i_003.png" alt="" data-role="presentation"/>
+  <img class="drop-cap illowe14_3125" src="images/i_003.png" alt="" data-role="presentation">
 </div>
 
 <p class="drop-cap"><span class="upper-case">The</span>
@@ -909,6 +909,15 @@ young, to teach that no nation has the right to impose
 its individuality upon another one, that no war is
 justifiable except for the defence of the threatened
 integrity of our ideals.</p>
+
+<div class="transnote">
+<h2>Transcriber’s Note</h2>
+
+<p>
+Some inconsistencies in spelling, hyphenation, and punctuation have been
+retained.
+</p>
+</div>
 
 </body>
 </html>
