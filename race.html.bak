@@ -291,6 +291,7 @@ h1 {
   font-weight: normal;
 }
 h3 {
+  margin-top: 2em;
   font-size: 1.12em;
 }
 h3.nobreak  {page-break-before: avoid;}
