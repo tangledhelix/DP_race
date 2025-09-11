@@ -16,6 +16,7 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 * [x] From PM notes: The initial "race and nationality" on page 3 will be a chapter heading and all the rest will be section headings.
 * [x] p. 3: drawn borders on title page
+* [ ] (HTML) verify viewport tag addition didn't cause a problem.
 
 ### Project manager notes ###
 
