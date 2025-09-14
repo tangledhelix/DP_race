@@ -16,7 +16,8 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 * [x] From PM notes: The initial "race and nationality" on page 3 will be a chapter heading and all the rest will be section headings.
 * [x] p. 3: drawn borders on title page
-* [ ] (HTML) verify viewport tag addition didn't cause a problem.
+* [x] (HTML) verify viewport tag addition didn't cause a problem.
+    * It not only caused no problem, its presence is a significant improvement.
 
 ### Project manager notes ###
 
@@ -56,12 +57,12 @@ The initial "race and nationality" on page 3 will be a chapter heading and all t
 ### HTML file review ###
 The iPhone/iPad simulators can't use `file://` URLs. Start a local web server with `python3 -m http.server` in the project directory and going to `localhost:8000` in Safari on the device. 
 
-* [ ] Safari
-* [ ] Firefox
-* [ ] Edge
-* [ ] Chrome
-* [ ] iPhone simulator
-* [ ] iPad simulator
+* [x] Safari
+* [x] Firefox
+* [x] Edge
+* [x] Chrome
+* [x] iPhone simulator
+* [x] iPad simulator
 
 ### Ebook review ###
 
