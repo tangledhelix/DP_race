@@ -485,13 +485,13 @@ Submit for a decent length of time, up to the maximum. Check what's in `ebooks/`
 * [x] Go to [project page](https://www.pgdp.net/c/project.php?id=projectID64d791ed8f9b0), select SR time period, upload `race-sr.zip`
 * [x] Subscribe to “user uploads a SR report” item
 * [x] Update my Trello project board with due date, set card to SR status
-* [ ] If time permits, smooth read it myself as well
+* [x] If time permits, smooth read it myself as well
 
 ### Process SR feedback
-* [ ] After SR is finished, processed SR feedback into project.
-* [ ] Add **anonymized** files to git, e.g. `race-smoothread01.txt`
-* [ ] Thank your smooth readers with a PM!
-* [ ] If there were changes from the SR round, re-do final checks from above (validators etc)
+* [x] After SR is finished, processed SR feedback into project.
+* [x] Add **anonymized** files to git, e.g. `race-smoothread01.txt`
+* [x] Thank your smooth readers with a PM!
+* [x] If there were changes from the SR round, re-do final checks from above (validators etc)
 
 ## Upload the Finished Project
 
